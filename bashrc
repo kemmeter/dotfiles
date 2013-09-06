@@ -2,9 +2,9 @@
 # get it: curl https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 source ~/.git-prompt.sh
 if [[ ${USER} == "root" ]]; then
-    export PS1="\e[0;31m\u@\h:\W\e[0;33m\$(__git_ps1)\e \$\e[00m "
+    export PS1="\e[0;31m\u@\h:\W\e[0;33m\$(__git_ps1) $\e[00m "
 else
-    export PS1="\e[0;32m\u@\h:\W\e[0;33m\$(__git_ps1)\e \$\e[00m "
+    export PS1="\e[0;32m\u@\h:\W\e[0;33m\$(__git_ps1) $\e[00m "
 fi
 umask 022 
 
