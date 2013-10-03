@@ -8,7 +8,7 @@ else
 fi
 umask 022 
 
-alias l='ls $LS_OPTIONS -al --color'
+alias l='ls $LS_OPTIONS -l --color'
 alias ll='ls $LS_OPTIONS -al --color'
 alias lt='ls $LS_OPTIONS -lrt --color'
 alias cda='cd /etc/apache2/'
